@@ -1,21 +1,3 @@
-// {
-//   "extends": "./tsconfig.json", // какой файл брать для конфига
-//   "include": ["./src"], // какие файлы проверять на ts
-//   "exclude": ["node_modules", "dist"], // какие файлы не проверять
-//   "compilerOptions": {
-//     "target": "ES6", // Версия стандарта ECMAScript, в которую будет скомпилирован код
-//     "module": "ES6", // Модульная система, которую будет использовать ваше собранное приложение
-//     "moduleResolution": "node", // Стратегия, которая будет использоваться для импорта модулей. Если честно нихрена не понял попробуй попробуй убрать и добавить его
-//     "outDir": "dist", // в какую папку сложаться скомпилированные файлы
-//     "allowSyntheticDefaultImports": true, // разрешение на пользование дефолтными импортами
-//     "esModuleInterop": true, // За счёт добавления болерплейта в выходной код, позволяет импортировать CommonJS пакеты как ES6. Если включена данная опция то allowSyntheticDefaultImports становится true автоматически
-//     "strict": true, // строгий режим проверки
-//     "forceConsistentCasingInFileNames": true, //Включает режим чувствительности к регистру (case-sensitive) для импорта файлов
-//     "resolveJsonModule": true, // позволяет импортировать json файлы
-//     "jsx": "react",
-//     "noImplicitAny": true
-//   }
-// }
 {
   "compilerOptions": {
     "baseUrl": ".",
