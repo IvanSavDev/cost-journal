@@ -11,8 +11,6 @@ const Chart = ({ dataPoints }: ChartProps) => {
   const dataPointsValues = dataPoints.map((dataPoint) => dataPoint.value);
 
   const maxValuePoints = Math.max(...dataPointsValues);
-  console.log(dataPointsValues);
-  console.log(maxValuePoints);
 
   return (
     <div className={styles.chart}>
