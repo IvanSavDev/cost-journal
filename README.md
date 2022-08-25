@@ -1,10 +1,10 @@
 # Cost journal
 
-##Description
+## Description
 
 This application allows you to add expenses for a certain period of time.
 
-##Installation
+## Installation
 
 ```
 npm install
